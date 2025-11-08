@@ -1,0 +1,70 @@
+2024-01-15 08:00:00,123 [INFO] com.example.Application - Application started successfully
+2024-01-15 08:00:01,234 [INFO] com.example.Database - Database connection pool initialized with 20 connections
+2024-01-15 08:00:02,345 [INFO] com.example.API - REST API server listening on port 8080
+2024-01-15 08:05:15,456 [WARNING] com.example.Cache - Cache memory usage at 75%
+2024-01-15 08:10:30,567 [ERROR] com.example.Database - Database connection failed: Connection timeout after 30 seconds
+2024-01-15 08:10:31,678 [ERROR] com.example.Database - Database connection failed: Connection timeout after 30 seconds
+2024-01-15 08:10:32,789 [ERROR] com.example.Database - Database connection failed: Connection timeout after 30 seconds
+2024-01-15 08:10:35,890 [CRITICAL] com.example.Database - Database connection pool exhausted
+2024-01-15 08:11:00,901 [INFO] com.example.Database - Database connection restored
+2024-01-15 08:15:20,012 [INFO] com.example.API - Received GET request from 192.168.1.100
+2024-01-15 08:15:21,123 [INFO] com.example.API - Received POST request from 192.168.1.101
+2024-01-15 08:20:45,234 [WARNING] com.example.Auth - Failed login attempt for user: admin from IP 10.0.0.15
+2024-01-15 08:20:50,345 [WARNING] com.example.Auth - Failed login attempt for user: admin from IP 10.0.0.15
+2024-01-15 08:20:55,456 [WARNING] com.example.Auth - Failed login attempt for user: admin from IP 10.0.0.15
+2024-01-15 08:21:00,567 [ERROR] com.example.Auth - Authentication failed: Invalid credentials for user admin
+2024-01-15 08:21:05,678 [WARNING] com.example.Auth - Account locked due to multiple failed attempts: admin
+2024-01-15 08:30:00,789 [INFO] com.example.API - Processing batch job: data_sync_001
+2024-01-15 08:30:15,890 [ERROR] com.example.FileSystem - File not found: /data/exports/report_2024.csv
+2024-01-15 08:30:20,901 [WARNING] com.example.FileSystem - Permission denied accessing /data/logs/archive/
+2024-01-15 08:35:00,012 [INFO] com.example.API - Batch job completed: data_sync_001
+2024-01-15 08:40:10,123 [ERROR] com.example.Network - Network unreachable: Could not connect to remote server api.external.com
+2024-01-15 08:40:15,234 [ERROR] com.example.Network - Socket timeout: Connection to api.external.com:443 timed out
+2024-01-15 08:45:00,345 [INFO] com.example.Memory - Garbage collection executed, freed 500MB
+2024-01-15 08:50:00,456 [WARNING] com.example.Memory - Memory usage high: 85% of heap space used
+2024-01-15 08:55:00,567 [ERROR] com.example.Memory - Out of memory error: Java heap space exhausted
+2024-01-15 08:55:05,678 [CRITICAL] com.example.Application - Application crash due to memory error
+2024-01-15 08:55:10,789 [INFO] com.example.Application - Initiating restart sequence
+2024-01-15 08:56:00,890 [INFO] com.example.Application - Application restarted successfully
+2024-01-15 09:00:00,901 [INFO] com.example.API - Health check passed
+2024-01-15 09:05:30,012 [ERROR] com.example.Database - SQL query failed: Syntax error in SELECT statement
+2024-01-15 09:05:35,123 [ERROR] com.example.Database - Database query timeout: Query exceeded 60 second limit
+2024-01-15 09:10:00,234 [INFO] com.example.API - Received GET request from 192.168.1.102
+2024-01-15 09:15:00,345 [WARNING] com.example.API - API rate limit exceeded for client 192.168.1.100
+2024-01-15 09:15:05,456 [WARNING] com.example.API - API rate limit exceeded for client 192.168.1.100
+2024-01-15 09:15:10,567 [WARNING] com.example.API - API rate limit exceeded for client 192.168.1.100
+2024-01-15 09:20:00,678 [INFO] com.example.Cache - Cache refreshed, 5000 entries updated
+2024-01-15 09:25:00,789 [ERROR] com.example.API - NullPointerException in UserService.getProfile() at line 245
+2024-01-15 09:25:05,890 [ERROR] com.example.API - NullPointerException in UserService.getProfile() at line 245
+2024-01-15 09:25:10,901 [ERROR] com.example.API - NullPointerException in UserService.getProfile() at line 245
+2024-01-15 09:30:00,012 [INFO] com.example.Scheduler - Scheduled task started: cleanup_old_logs
+2024-01-15 09:30:15,123 [INFO] com.example.Scheduler - Deleted 150 old log files
+2024-01-15 09:30:20,234 [INFO] com.example.Scheduler - Scheduled task completed: cleanup_old_logs
+2024-01-15 09:35:00,345 [WARNING] com.example.Disk - Disk space low on /var/logs: 5% remaining
+2024-01-15 09:40:00,456 [INFO] com.example.API - Received POST request from 192.168.1.103
+2024-01-15 09:45:00,567 [ERROR] com.example.Integration - API endpoint unavailable: https://external-api.com/v1/data returned 503
+2024-01-15 09:45:05,678 [ERROR] com.example.Integration - Service unavailable: Retry attempt 1 failed
+2024-01-15 09:45:10,789 [ERROR] com.example.Integration - Service unavailable: Retry attempt 2 failed
+2024-01-15 09:45:15,890 [ERROR] com.example.Integration - Service unavailable: Retry attempt 3 failed
+2024-01-15 09:45:20,901 [CRITICAL] com.example.Integration - External service failure: All retry attempts exhausted
+2024-01-15 09:50:00,012 [INFO] com.example.API - Health check passed
+2024-01-15 09:55:00,123 [INFO] com.example.Database - Database backup started
+2024-01-15 09:55:30,234 [INFO] com.example.Database - Database backup completed successfully
+2024-01-15 10:00:00,345 [INFO] com.example.API - Received GET request from 192.168.1.104
+2024-01-15 10:05:00,456 [WARNING] com.example.Security - Suspicious activity detected from IP 45.123.45.67
+2024-01-15 10:05:05,567 [WARNING] com.example.Security - SQL injection attempt blocked from IP 45.123.45.67
+2024-01-15 10:05:10,678 [ERROR] com.example.Security - Multiple security violations from IP 45.123.45.67
+2024-01-15 10:05:15,789 [CRITICAL] com.example.Security - IP address 45.123.45.67 added to blacklist
+2024-01-15 10:10:00,890 [INFO] com.example.API - Received PUT request from 192.168.1.105
+2024-01-15 10:15:00,901 [INFO] com.example.Cache - Cache hit ratio: 92.5%
+2024-01-15 10:20:00,012 [ERROR] com.example.Network - Connection reset by peer: Socket closed unexpectedly
+2024-01-15 10:20:05,123 [ERROR] com.example.Network - Connection reset by peer: Socket closed unexpectedly
+2024-01-15 10:25:00,234 [INFO] com.example.API - Processing batch job: report_generation_002
+2024-01-15 10:30:00,345 [WARNING] com.example.Performance - Response time degradation detected: avg 2.5s (threshold: 1.0s)
+2024-01-15 10:35:00,456 [INFO] com.example.API - Batch job completed: report_generation_002
+2024-01-15 10:40:00,567 [INFO] com.example.API - Health check passed
+2024-01-15 10:45:00,678 [ERROR] com.example.Database - Deadlock detected in transaction T12345
+2024-01-15 10:45:05,789 [INFO] com.example.Database - Deadlock resolved, transaction rolled back
+2024-01-15 10:50:00,890 [INFO] com.example.API - Received DELETE request from 192.168.1.106
+2024-01-15 10:55:00,901 [WARNING] com.example.API - Deprecated API endpoint accessed: /api/v1/legacy/users
+2024-01-15 11:00:00,012 [INFO] com.example.API - Health check passed
