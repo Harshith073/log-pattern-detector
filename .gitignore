@@ -35,6 +35,7 @@ output/
 reports/
 *.png
 *.html
+!templates/*.html
 *.csv
 !sample_logs/*.log
 
